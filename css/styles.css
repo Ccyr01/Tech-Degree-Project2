@@ -1,5 +1,5 @@
 *{
-    background: white;
+    background: rgb(255, 255, 255,.5);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,7 +15,10 @@ body{
     min-height: 100vh;
     font-family: 'Open Sans',sans-serif;
     color: black;
-    background-color:#093145;
+    background-color:white;
+}
+.wrap{
+    background-color: whitesmoke;
 }
 ul{
     list-style: none;
@@ -39,7 +42,7 @@ nav{
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: 000;
+    background-color: rgba(245, 245, 245, 0.56);
     padding: 25px;
 }
 h1, .top-nav{
@@ -62,8 +65,8 @@ h1 a, .top-nav a{
 .top-nav li{
     padding: 10px 0;
     margin:5px auto;
-    background-color: #fff;
-    border-radius:20px;
+    background-color: rgba(255, 255, 255);
+    border-radius:10px;
 
 }
 .top-nav a{
@@ -81,6 +84,13 @@ img{
 li{
     list-style: none;
     font-weight: 700;
+}
+.con{
+    padding: 30px 10px;
+    line-height: 1.5;
+}
+#conh3{
+    padding:30px
 }
 .contact{
     
@@ -101,7 +111,7 @@ li{
     text-align: center;
     letter-spacing: 1px;
     padding-top:5px;
-    line-height: 1.25rem;
+    line-height: 1.4rem;
     font-weight: 5;
 
 }
