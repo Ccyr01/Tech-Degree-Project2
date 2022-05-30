@@ -1,5 +1,5 @@
 *{
-    background: rgb(255, 255, 255,.5);
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -17,6 +17,10 @@ body{
     color: black;
     background-color:white;
 }
+p{
+    font-weight: 100;
+}
+
 .wrap{
     background-color: whitesmoke;
 }
@@ -42,11 +46,11 @@ nav{
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: rgba(245, 245, 245, 0.56);
+    background-color: whitesmoke;
     padding: 10px;
 }
-.name{
-    background-color: whitesmoke;
+h1 a.name{
+   background-color:  whitesmoke;
 }
 h1, .top-nav{
     text-align: center;
@@ -84,6 +88,7 @@ h1 a, .top-nav a{
 .paragraph{
     padding:12px;
     background-color: whitesmoke;
+    color :gray;
 }
 img{
     max-width: 100%;
@@ -134,18 +139,29 @@ li{
 }
 .box-2{
     background-color: white;
+    padding: 40px 10px 10px 10px;
+    margin:-10px;
+
 }
 .box-3{
     background-color: white;
+    padding: 40px 10px 10px 10px;
+    margin:-10px;
 }
 .box-4{
     background-color: white;
+    padding: 40px 10px 10px 10px;
+    margin:-10px;
 }
 .box-5{
     background-color: white;
+    padding: 40px 10px 10px 10px;
+    margin:-10px;
 }
 .box-6{
     background-color: white;
+    padding: 40px 10px 10px 10px;
+    margin:-10px;
 }
 /*-------------------------------------------------------------------------
 ---------------------------------------------------------------------------
@@ -165,6 +181,8 @@ li{
         display: flex;
         flex-wrap: wrap;
     }
+    
+
     .col{
         flex-basis: calc(50%-20px);
 
