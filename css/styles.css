@@ -179,9 +179,12 @@ li{
         min-height: calc(100vh - 21.6px);
     }
     .container{
-        width: 100%;;
+        background-color: white;
+        width: 100vw;
         display: flex;
         flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: center;
     }
     #portfolio{
         padding: 20px 20px 20px 20px;
@@ -198,7 +201,35 @@ li{
 
     .col{
         flex-basis: calc(50% - 20px);
-
+    }
+    .box-1{
+        height: 420px;
+    }
+    .box-2{
+        height: 420px;
+    }
+    .box-3{
+        height: 420px;
+    }
+    .box-4{
+        height: 420px;
+    }
+    .box-5{
+        height: 420px;
+    }
+    .box-6{
+        height: 420px;
+    }
+    .con{
+        justify-content: center;
+        background-color: whitesmoke;
+    }
+    .picnpar{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraph{
+        padding: 0px 125px 10px 125px;
     }
     .top-nav{
         margin-top:0;
