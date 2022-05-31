@@ -40,7 +40,7 @@ footer{
     margin-top: auto;
     padding: 20px 20px;
     height: 100px;
-    background-color:000;
+    background-color:white;
 }
 nav{
     font-family: "Roboto", Arial, Verdana;
@@ -101,7 +101,7 @@ li{
     padding: 30px 10px;
     line-height: 1.5;
 }
-#conh3{
+#contact{
     padding:30px;
     font-size:15px;
 }
@@ -128,40 +128,40 @@ li{
     font-weight: 5;
 
 }
-#port{
+#portfolio{
     padding: 20px 20px 0px 20px;
     margin: 25px 0 -25px 0;
 }
 
 .box-1{
     background-color:white;
-    padding: 40px 10px 10px 10px;
+    padding: 40px 0px 10px 10px;
     margin:-10px;
 }
 .box-2{
     background-color: white;
-    padding: 40px 10px 10px 10px;
+    padding: 40px 0px 10px 10px;
     margin:-10px;
 
 }
 .box-3{
     background-color: white;
-    padding: 40px 10px 10px 10px;
+    padding: 40px 0px 10px 10px;
     margin:-10px;
 }
 .box-4{
     background-color: white;
-    padding: 40px 10px 10px 10px;
+    padding: 40px 0px 10px 10px;
     margin:-10px;
 }
 .box-5{
     background-color: white;
-    padding: 40px 10px 10px 10px;
+    padding: 40px 0px 10px 10px;
     margin:-10px;
 }
 .box-6{
     background-color: white;
-    padding: 40px 10px 10px 10px;
+    padding: 40px 0px 10px 10px;
     margin:-10px;
 }
 /*-------------------------------------------------------------------------
@@ -182,10 +182,15 @@ li{
         display: flex;
         flex-wrap: wrap;
     }
+    #portfolio{
+        color:black;
+        display:flex;
+        justify-content: center;
+    }
     
 
     .col{
-        flex-basis: calc(50%-20px);
+        flex-basis: calc(50% - 20px);
 
     }
     .top-nav{
@@ -221,6 +226,6 @@ li{
         margin-bottom: 0;
     }
     .col{
-        flex-basis: calc(33.333%-20px);
+        flex-basis: calc(33.333% - 20px);
     }
 }
