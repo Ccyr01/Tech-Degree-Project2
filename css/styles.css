@@ -179,14 +179,21 @@ li{
         min-height: calc(100vh - 21.6px);
     }
     .container{
+        width: 100%;;
         display: flex;
         flex-wrap: wrap;
     }
     #portfolio{
-        color:black;
-        display:flex;
+        padding: 20px 20px 20px 20px;
+        margin: 25px 0 0 0;
         justify-content: center;
+        color:#000;
+        background-color: white;
     }
+    h1 a, .top-nav a{
+        color: #000;
+    }
+   
     
 
     .col{
@@ -195,18 +202,20 @@ li{
     }
     .top-nav{
         margin-top:0;
+      
     }
     .top-nav li{
         display: inline-block;
         width: auto;
         margin-right:15px;
+        color: #000;
         background-color: transparent;
     }
     .top-nav li:last-child{
         margin-right:0;
     }
     .top-nav a{
-        color: #fff;
+        color: black;
     }
 }
 @media (min-width: 1024px){
