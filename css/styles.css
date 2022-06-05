@@ -90,6 +90,9 @@ h1 a, .top-nav a{
     background-color: whitesmoke;
     color :gray;
 }
+.top-paragraph{
+    color:gray;
+}
 img{
     max-width: 100%;
 }
@@ -116,10 +119,14 @@ li{
     padding: 10px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .col{
-    margin:10px;
     min-height: 250px;
+    max-width: 50rem;
+    background-color: white;
     color:black;
     text-align: center;
     letter-spacing: 1px;
@@ -130,40 +137,10 @@ li{
 }
 #portfolio{
     padding: 20px 20px 0px 20px;
-    margin: 25px 0 -25px 0;
+    margin: 25px 0 0 0;
+    background-color: white;
 }
 
-.box-1{
-    background-color:white;
-    padding: 40px 0px 10px 10px;
-    margin:-10px;
-}
-.box-2{
-    background-color: white;
-    padding: 40px 0px 10px 10px;
-    margin:-10px;
-
-}
-.box-3{
-    background-color: white;
-    padding: 40px 0px 10px 10px;
-    margin:-10px;
-}
-.box-4{
-    background-color: white;
-    padding: 40px 0px 10px 10px;
-    margin:-10px;
-}
-.box-5{
-    background-color: white;
-    padding: 40px 0px 10px 10px;
-    margin:-10px;
-}
-.box-6{
-    background-color: white;
-    padding: 40px 0px 10px 10px;
-    margin:-10px;
-}
 /*-------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 -------------------Media Queries--------------------------------------------*/
